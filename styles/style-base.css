@@ -1,0 +1,106 @@
+
+html{
+    --primary-color: #0091eb;
+   
+}
+body{
+     font-family: Montserrat, sans-serif!important;
+}
+
+
+.grid { display: grid }
+.grid:after, .grid:before { clear: both }
+
+.grid-col-2 { grid-template-columns: repeat(2, 1fr); grid-gap: 25px; width: 100% }
+.grid-col-3 { grid-template-columns: repeat(3, 1fr); grid-gap: 25px; width: 100% }
+.grid-col-4 { grid-template-columns: repeat(4, 1fr); grid-gap: 25px; width: 100% }
+.grid-col-5 { grid-template-columns: repeat(5, 1fr); grid-gap: 25px; width: 100% }
+.grid-col-6 { grid-template-columns: repeat(6, 1fr); grid-gap: 25px; width: 100% }
+.grid-col-7 { grid-template-columns: repeat(7, 1fr); grid-gap: 25px; width: 100% }
+.grid-col-8 { grid-template-columns: repeat(8, 1fr); grid-gap: 25px; width: 100% }
+
+.navbar{
+    background-color: rgb(26, 26, 26);
+    height: 100px;
+}
+.navbar a{
+    color: #fff;
+}
+.navbar a:hover{
+    color: #fff;
+}
+.links a{
+    padding: 1em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 5px;
+    transition: .5s all;
+}
+.links a:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    /* transform: scale(1.1); */
+    border-radius: 5px;
+    transition: .5s all;
+}
+.me-auto{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.dropdown-menu{
+    padding: 1em;
+}
+.dropdown-menu a{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    color: #222;
+}
+.dropdown-menu a:hover{
+    transform: none;
+}
+.dropdown button{
+    background-color: none!important;
+    background: none!important;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    transition: .5s all;
+    padding: 1em;
+}
+.dropdown button:hover{
+    background-color: var(--primary-color)!important;
+    color: #fff;
+    /* transform: scale(1.1); */
+    border-radius: 5px;
+    transition: .5s all;
+}
+footer{ font-size: 14px; background-color: rgb(26, 26, 26);}
+footer img{
+    width: 100%;
+    padding: 1em;
+}
+footer svg{
+    color: #fff;
+}
+.footer-links{
+    display: flex;
+    justify-content: flex-end;
+}
+.social-links{
+    display: flex;
+    justify-content: flex-end;
+}
+.social-links svg{
+    background-color: #0091eb;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+footer a {
+    padding: 1em;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
