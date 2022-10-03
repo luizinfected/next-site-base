@@ -67,54 +67,50 @@ export default function Home(props) {
                     <Card>
                         <Card.Img variant="top" src="banner.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Produto</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Titulo do produto em destaque (MPI)
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Saiba mais...</Button>
                         </Card.Body>
                     </Card>
 
                     <Card>
                         <Card.Img variant="top" src="banner.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Produto</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Titulo do produto em destaque (MPI)
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Saiba mais...</Button>
                         </Card.Body>
                     </Card>
 
                     <Card>
                         <Card.Img variant="top" src="banner.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Produto</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Titulo do produto em destaque (MPI)
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Saiba mais...</Button>
                         </Card.Body>
                     </Card>
 
                     <Card>
                         <Card.Img variant="top" src="banner.jpg" />
                         <Card.Body>
-                            <Card.Title>Card Title</Card.Title>
+                            <Card.Title>Produto</Card.Title>
                             <Card.Text>
-                                Some quick example text to build on the card title and make up the
-                                bulk of the card's content.
+                                Titulo do produto em destaque (MPI)
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="primary">Saiba mais...</Button>
                         </Card.Body>
                     </Card>
                 </div>
 
 
-                <Carousel responsive={responsiveCarousel} className="py-5">
+                <Carousel responsive={responsiveCarousel} className="py-5" infinite={true} autoPlay={true} transitionDuration={1000}>
                     <div><img src='clientes/01.jpg' alt='banner' title='banner' /></div>
                     <div><img src='clientes/02.jpg' alt='banner' title='banner' /></div>
                     <div><img src='clientes/03.jpg' alt='banner' title='banner' /></div>

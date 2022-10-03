@@ -26,7 +26,7 @@ export default function Header(props) {
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto links">
                                 <Link href="/">Home</Link>
-                                <Link href="/">Empresa</Link>
+                                <Link href="/empresa">Empresa</Link>
                                 <Link href="contato">Produtos</Link>
                                 <Dropdown>
                                     <Dropdown.Toggle variant="success" id="dropdown-basic">
